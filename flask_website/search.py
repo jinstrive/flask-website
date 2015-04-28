@@ -4,7 +4,7 @@ from whoosh import highlight, analysis, qparser
 from whoosh.support.charset import accent_map
 from flask import Markup
 from flask_website import app
-from werkzeug import import_string
+from werkzeug.utils import import_string
 
 
 def open_index():
